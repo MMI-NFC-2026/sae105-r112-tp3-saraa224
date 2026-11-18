@@ -60,16 +60,16 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Ajoute un défilement horizontal si le contenu déborde - https://developer.mozilla.org/fr/docs/Web/CSS/overflow */
   overflow-x: auto;
   /* Marge négative à gauche pour coller le carousel au bord de l'écran -24px - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
-  margin-left: -24px;
+  margin-left: 0 -24px;
   /* Marge négative à droite pour coller le carousel au bord de l'écran -24px - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
-  margin-right: -24px;
+  margin-right: 0 -24px;
   /* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
   scroll-snap-type: x mandatory;
 }
 
 .carousel__item {
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
-  flex: 0 0 auto;
+  flex: 1 0 260px;
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
   scroll-snap-align: center;
 }
