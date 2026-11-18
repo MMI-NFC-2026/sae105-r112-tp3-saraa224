@@ -43,7 +43,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Centre le contenu du bouton horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
   justify-content: center;
   /* Bordure solide de 1px - https://developer.mozilla.org/fr/docs/Web/CSS/border */
-  border: 1px solid #000;
+  border: 1px solid;
   /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
   border-radius: 50%;
 }
